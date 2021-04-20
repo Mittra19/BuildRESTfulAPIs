@@ -1,8 +1,8 @@
 import express from 'express';
+const dotenv =require("dotenv");
+
 const app = express();
-const dotenv=require("dotenv");
-//const mySecret = process.env['PORT'];
-const PORT=3737;
+const PORT=3003;
 app.get('/', (req, res)=>{
   res.send(`Node is running on PORT ${process.env.PORT}`);
 });
