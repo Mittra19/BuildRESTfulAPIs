@@ -1,0 +1,28 @@
+RESTful API:
+A RESTful API is a process to do transactions with the backend using HTTP protocol. GET, POST, PUT, DELETE methods are used. From the frontend, a client uses these HTTP methods to interact with the endpoints created on the backend.
+GET - gets the data
+POST - adds new data
+PUT - updates data
+DELETE - deletes data
+
+Bodyparser helps parse JSON http request into our server.
+
+Process:
+1. Install the required packages using npm
+2. Change the scripts in package.json from "test" to "start". And in the value copy "nodemon ./index.js --exec babel-node -e js".
+3. Fill the index.js file with the required code.
+4. Create a file called .babelrc. This file tells babel while transpiling, what are the presets we are using. 
+
+5. npm start to run our server.
+
+
+
+Sequence of commands in the shell:
+1. npm init
+2. npm install express
+3. npm install mongodb mongoose
+4. npm install --save-dev babel-cli babel-preset-env babel-preset-stage-0
+5. npm install body-parser
+6. npm install nodemon
+7. npm install dotenv 
+8. npm start
